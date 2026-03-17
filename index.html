@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love All</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="background"></div>
+
+  <div class="app">
+
+    <img src="capa.jpg" class="capa">
+
+    <div class="info">
+      <h2>Love All (with JAY-Z)</h2>
+      <p>Drake, JAY-Z</p>
+    </div>
+
+    <div class="progress-area">
+      <div class="progress-container" id="progress-container">
+        <div class="progress" id="progress"></div>
+      </div>
+
+      <div class="time">
+        <span id="currentTime">0:00</span>
+        <span id="duration">0:00</span>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button class="icon">⏮</button>
+      <button id="play" class="play">▶</button>
+      <button class="icon">⏭</button>
+    </div>
+
+    <div class="letra-wrapper">
+      <div id="letra"></div>
+    </div>
+
+    <audio id="musica" src="musica.mp3"></audio>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
